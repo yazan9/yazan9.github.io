@@ -1,0 +1,17 @@
+.text-red{
+    color: #da3a41;
+    margin-bottom:10px;
+}
+
+.text-gray{
+    color:#7b7b7c;
+    margin-bottom:1em;
+}
+
+.main-col-container{
+    padding:2em;
+}
+
+.btn-gray{
+    color:#7b7b7c !important;
+}
