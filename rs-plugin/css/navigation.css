@@ -42,7 +42,7 @@
 .wexim .tp-bullet.selected .tp-bullet-inner{
     transform: scale(1.4);
     margin-top:2px;
-    background: #00bcd4;
+    background: #da3a41;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;

@@ -9,8 +9,9 @@
 }
 
 .main-col-container{
-    padding:2em;
-    margin-top:8em;
+    /* padding:2em; */
+    /* margin-top:90px; */
+    margin: 90px auto;
 }
 
 .btn-gray{
