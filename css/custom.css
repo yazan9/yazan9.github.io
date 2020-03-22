@@ -17,3 +17,21 @@
 .btn-gray{
     color:#7b7b7c !important;
 }
+
+.heading-1{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.main-heading{
+    padding-left:8em;
+}
+
+.about-item{
+    width:33% !important;
+}
+
+.about-skill{
+    padding-top:0.5em;
+}
