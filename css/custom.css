@@ -27,6 +27,9 @@
 .main-heading{
     padding-left:8em;
 }
+.main-heading-md{
+    padding:1em;
+}
 
 .about-item{
     width:33% !important;
@@ -34,4 +37,8 @@
 
 .about-skill{
     padding-top:0.5em;
+}
+
+.no-bottom-margin{
+    margin-bottom: 10px;
 }
