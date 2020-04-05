@@ -1214,7 +1214,7 @@ header .center-logo a.logo img {max-width: 130px;}
     font-weight: 500;
 }
 
-.team-progress .progress-bar{
+/* .team-progress .progress-bar{
     height: 100%;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -1224,6 +1224,18 @@ header .center-logo a.logo img {max-width: 130px;}
     background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+} */
+
+.team-progress .progress-bar{
+    height: 100%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #da3a41 2%, #da3a41 82%);
+    background: -webkit-linear-gradient(left, #da3a41 2%,#da3a41 82%);
+    background: linear-gradient(to right, #da3a41 2%,#da3a41 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da3a41', endColorstr='#da3a41',GradientType=1 );
 }
 
 .team-box:hover .overlay {
@@ -1927,16 +1939,24 @@ ul.packages li i.fa-times{
     vertical-align: super;
 }
 
-.price-two.hvr-gradient:hover{
+/* .price-two.hvr-gradient:hover{
     background: #3264f5;
     background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
     background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+} */
+
+.price-two.hvr-gradient:hover{
+    background: #da3a41;
+    background: -moz-linear-gradient(left, #da3a41 2%, #da3a41 82%);
+    background: -webkit-linear-gradient(left, #da3a41 2%,#da3a41 82%);
+    background: linear-gradient(to right, #da3a41 2%,#da3a41 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da3a41', endColorstr='#da3a41',GradientType=1 );
 }
 
 .price-two.hvr-blue:hover{
-    background-color: #00bcd4;
+    background-color: #da3a41;
 
 }
 
@@ -2131,7 +2151,7 @@ ul.packages li i.fa-times{
 }
 
 .bg-img5{
-    background: url(../images/bg-img2.jpg);
+    background: url(../images/tour/wall.jpeg);
 }
 
 .bg-img6{
@@ -2145,7 +2165,7 @@ ul.packages li i.fa-times{
     background-size: contain;
 }
 .bg-img9{
-    background: url(../images/bg-img6.jpg);
+    background: url(../images/guarantee/guarantee_secondimage.jpg);
 }
 .bg-img10{
     background: url(../images/bg-img7.jpg);
@@ -2157,6 +2177,11 @@ ul.packages li i.fa-times{
 .bg-img12{
     background: url(../images/bg-img9.jpg);
 }
+
+.bg-img13{
+    background: url(../images/guarantee/guarantee_main.jpg);
+}
+
 
 .bg-img-map{
     background: url(../images/map.jpg);
@@ -2645,7 +2670,7 @@ ul.packages li i.fa-times{
 }
 
 .footer-social li a:hover{
-    background-color:#00bcd4;
+    background-color:#da3a41;
     color: #ffffff;
 }
 
