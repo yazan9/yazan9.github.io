@@ -90,7 +90,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-dark center-logo navbar-expand-lg navbar-simple nav-line nav-box-round">
         <div class="container">
-            <a href="#home" title="Logo" class="logo scroll">
+            <a href="index.html" title="Logo" class="logo">
                 <img src="images/logo-couplehundred.png" class="logo-dark" alt="logo">
                 <img src="images/logo-couplehundred.png" alt="logo" class="logo-light default">
             </a>
@@ -269,6 +269,46 @@
 <script src="js/map.js"></script>
 <!-- custom script -->
 <script src="js/script.js"></script>
+<script type="text/javascript" async="" src="https://couplehundred.engagebay.com/jsapi/min/minified/v3.js?v=55-8.425835676076596885"></script>
+<script type="text/javascript">
+    var JS_API_KEY = "q2fmlqse9br458lb0rop5ectvv";
+    var DOMAIN_NAME = "couplehundred";
+    
+    var IS_DEV_ENV = "false";
+    var APP_VERSION = "55-8";
+    var IS_VERSIONING_ENV = "true";
+    
+    var _VERSION = '55-8.425835676076596885';
+    
+    var formId = 4918992361750528;
+    var type = 'null';
+    var js_file_path =  "https://d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js";
+    if((IS_DEV_ENV && IS_DEV_ENV == "true") || (IS_VERSIONING_ENV && IS_VERSIONING_ENV == "true")){
+        js_file_path = "/jsapi/min/minified/v3.js?v="+_VERSION;
+    }
+    
+    var EhAPI = EhAPI || {};
+    EhAPI.after_load = function() {
+        
+        if(IS_DEV_ENV && IS_DEV_ENV == "true"){
+            console.log("Request sent to localhost");
+            EhAPI.set_account(JS_API_KEY, DOMAIN_NAME, "localhost");
+        }else if(IS_VERSIONING_ENV && IS_VERSIONING_ENV == "true"){
+            console.log("Request sent to " + APP_VERSION);
+            EhAPI.set_account(JS_API_KEY, DOMAIN_NAME, APP_VERSION);
+        }else{
+            console.log("Request sent to live");
+            EhAPI.set_account(JS_API_KEY, DOMAIN_NAME);
+        }
+        
+        EhAPI.execute(type, formId);
 
+    };(function(d,s,f) {
+        var sc=document.createElement(s);sc.type='text/javascript';sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];m.parentNode.insertBefore(sc,m);   
+    })(document, 'script', js_file_path);
+    /*};(function(d,s,f) {
+        var sc=document.createElement(s);sc.type='text/javascript';sc.async=true;sc.src=f;var m=document.getElementsByTagName(s)[0];m.parentNode.insertBefore(sc,m);   
+    })(document, 'script', '/jsapi/min/minified/v3.js');*/
+</script>
 </body>
 </html>
